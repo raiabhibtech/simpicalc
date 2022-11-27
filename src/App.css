@@ -1,0 +1,60 @@
+
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+
+  background-color: aliceblue;
+}
+.main{
+  height: 85vh;
+  margin-left: 30px;
+}
+form{
+  text-align: justify;  
+}
+form p{
+  text-align: center;
+  font-size: large;
+  font-weight: 400;
+  margin-left: 10px;
+  border: 2px solid rgb(185, 181, 181);
+  width: 15%;
+  border-radius: 5px;
+}
+
+button,input{
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+input {
+  display: block;
+  margin-bottom: 20px;
+
+}
+button {
+  border: 1px solid rgb(126, 125, 125);
+  background: whitesmoke;
+  margin-right: 5px;
+}
+button:nth-last-child(2),
+button:nth-last-child(1) {
+  background: tomato;
+  color: white;
+}
+.App h1{
+  text-align: center;  
+  color: rgb(107, 218, 97);
+  background-color: rgb(255, 255, 255);
+  
+}
+
+.footer{
+  color:rgb(255, 30, 0);
+  text-align:right;
+
+}
